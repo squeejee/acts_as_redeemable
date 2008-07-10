@@ -1,0 +1,7 @@
+script/generate redeemable (ModelName)
+
+Example:
+
+script/generate redeemable Coupon
+
+This will create a Coupon model 
