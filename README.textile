@@ -18,7 +18,7 @@ h3.  Make your ActiveRecord model act as redeemable.
 	end
 
 h3. Create a new instance
- 
+
 	c = Coupon.new
 	c.user_id = 1 # The user who created the coupon 
 	c.save
