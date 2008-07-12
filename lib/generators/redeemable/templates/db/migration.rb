@@ -9,7 +9,7 @@ class <%= migration_name %> < ActiveRecord::Migration
       t.column :redeemed_at, :datetime
       t.column :redeemed_by_id, :integer
 
-      t.column :expires_on => :datetime
+      t.column :expires_on, :datetime
     end
   end
 
